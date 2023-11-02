@@ -1,0 +1,24 @@
+/* File: 125-O */
+
+/*
+ * Average time complexities of operations on an AVL Tree.
+ */
+
+/*
+ * Inserting the value n:
+ * Average Time Complexity: O(log n)
+ * Explanation: In AVL trees, insertion maintains balance through rotations, resulting in an average time complexity of O(log n).
+ */
+
+/*
+ * Removing the node with the value n:
+ * Average Time Complexity: O(log n)
+ * Explanation: Similar to insertion, removal in AVL trees involves balancing, leading to an average time complexity of O(log n).
+ */
+
+/*
+ * Searching for a node in an AVL tree of size n:
+ * Average Time Complexity: O(log n)
+ * Explanation: Searching in AVL trees is efficient due to their balanced nature, resulting in a time complexity of O(log n).
+ */
+
