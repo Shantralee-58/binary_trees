@@ -1,21 +1,22 @@
-/*
- * File: 115-O
- * ----------------
- * Description: Average time complexities of operations on a Binary Search Tree (BST).
- */
+/* File: 115-O */
 
+/* Explanation of average time complexities for operations on a Binary Search Tree (BST) */
+
+/* Insertion time complexity */
 /*
  * Inserting the value n:
  * Time complexity: O(log n) on average.
- * Explanation: The average time complexity for inserting a value in a BST is logarithmic.
+ * Explanation: In a balanced BST, inserting a value takes O(log n) time on average due to the balanced nature of the tree.
  */
 
+/* Removal time complexity */
 /*
  * Removing the node with the value n:
  * Time complexity: O(log n) on average.
- * Explanation: Similar to insertion, the average time complexity for removing a node in a BST is O(log n).
+ * Explanation: Similar to insertion, the average time complexity for removing a node in a balanced BST is O(log n).
  */
 
+/* Searching time complexity */
 /*
  * Searching for a node in a BST of size n:
  * Time complexity: O(log n) on average.
