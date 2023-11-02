@@ -1,0 +1,24 @@
+/* File: 141-O */
+
+/*
+ * Average time complexities of operations on a Binary Heap.
+ */
+
+/*
+ * Inserting the value n:
+ * Average Time Complexity: O(log n)
+ * Explanation: Insertion in a Binary Heap typically involves adding the element and then performing a "heapify-up" operation, resulting in a logarithmic average time complexity of O(log n).
+ */
+
+/*
+ * Extracting the root node:
+ * Average Time Complexity: O(log n)
+ * Explanation: Removing the root node and restoring the heap through a "heapify-down" operation results in an average time complexity of O(log n).
+ */
+
+/*
+ * Searching for a node in a binary heap of size n:
+ * Average Time Complexity: O(n)
+ * Explanation: Binary Heaps are not designed for efficient searching. Locating a node may involve a linear search through the elements, resulting in an average time complexity of O(n).
+ */
+
